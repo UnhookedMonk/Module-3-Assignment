@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+.container-fluid {
+    color: black;
+    background-color: rgb(190, 189, 189);
+    border-top: black solid 2px;
+    border-bottom: black solid 2px;
+    margin: 0px;
+    padding: 20px;
+}
+
+a {
+    color: black;
+}
+
+.title {
+    font-style: bold;
+    padding-top: 20px;
+}
+
+#main-content {
+    background-color: rgb(190, 189, 189);
+}
+
+@media (max-width: 768px) {
+    #main-content {
+        margin: 40px;
+    }
+}
+
+.main-content-title {
+    text-align: center;
+}
+
+hr {
+    margin: none;
+}
