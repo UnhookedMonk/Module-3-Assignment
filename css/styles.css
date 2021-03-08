@@ -22,12 +22,12 @@ a {
     padding-top: 20px;
 }
 
-#main-content {
+.container {
     background-color: rgb(190, 189, 189);
 }
 
 @media (max-width: 768px) {
-    #main-content {
+    .container {
         margin: 40px;
     }
 }
